@@ -40,7 +40,7 @@ Atualmente estudando:
 
 ## 📫 Contato
 
-📧 SeuEmail@email.com  
+📧 igormarcondes961@gmail.com  
 💼 LinkedIn: [linkedin.com/in/igormarcondes68a23a4](https://www.linkedin.com/in/igormarcondes68a23a4)  
 🌎 Portfólio Online: (coloque aqui)
 
