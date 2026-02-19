@@ -2,34 +2,46 @@
 
 💻 Desenvolvedor Front-End em formação  
 🚀 Focado em HTML, CSS e JavaScript  
-📚 Estudando todos os dias para evoluir na programação  
+📍 Brasil  
 
 ---
 
-## 🧠 Sobre mim
+## 🚀 Sobre mim
 
 Sou apaixonado por tecnologia e desenvolvimento web.  
-Estou em constante aprendizado, praticando projetos reais para evoluir minhas habilidades e construir um portfólio sólido.
+Estou estudando todos os dias e desenvolvendo projetos práticos para evoluir minhas habilidades como desenvolvedor Front-End.
 
-Atualmente estudando:
-- ✅ HTML5
-- ✅ CSS3
-- 🔄 JavaScript
-- 🔜 React
+🎯 Objetivo: Me tornar um desenvolvedor Front-End profissional.
 
 ---
 
-## 🛠️ Tecnologias que uso
+## 🛠️ Tecnologias
 
-<div>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40" />
+<div style="display: inline_block"><br>
+  <img align="center" alt="HTML" height="40" width="40"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="40" width="40"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+  <img align="center" alt="JS" height="40" width="40"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
 </div>
 
 ---
 
-## 📂 Meus Projetos
+## 📊 Estatísticas do GitHub
+
+<div>
+  <a href="https://github.com/igormarcondesDev">
+    <img height="180em"
+      src="https://github-readme-stats.vercel.app/api?username=igormarcondesDev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+    <img height="180em"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=igormarcondesDev&layout=compact&langs_count=7&theme=tokyonight"/>
+  </a>
+</div>
+
+---
+
+## 🔥 Projetos em destaque
 
 🔹 Portfólio Pessoal  
 🔹 Loja Virtual  
@@ -40,9 +52,7 @@ Atualmente estudando:
 
 ## 📫 Contato
 
-📧 SeuEmail@email.com  
-💼 LinkedIn: (coloque aqui)  
-🌎 Portfólio Online: (coloque aqui)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Igor%20Marcondes-blue?style=for-the-badge&logo=linkedin)](COLOQUE_AQUI_SEU_LINK_DO_LINKEDIN)
 
 ---
 
