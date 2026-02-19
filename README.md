@@ -1,19 +1,25 @@
 # 👋 Olá, eu sou o Igor Marcondes
 
 💻 Desenvolvedor Front-End em formação  
-📍 Brasil  
-🚀 Focado em HTML, CSS e JavaScript
+🚀 Focado em HTML, CSS e JavaScript  
+📚 Estudando todos os dias para evoluir na programação  
 
 ---
 
-## 🧩 Sobre mim
+## 🧠 Sobre mim
 
-Sou um desenvolvedor que está em constante aprendizado e construindo projetos reais para evoluir minhas habilidades no desenvolvimento web.  
-Meu objetivo é **aprender cada vez mais e crescer na carreira de Front-End**.
+Sou apaixonado por tecnologia e desenvolvimento web.  
+Estou em constante aprendizado, praticando projetos reais para evoluir minhas habilidades e construir um portfólio sólido.
+
+Atualmente estudando:
+- ✅ HTML5
+- ✅ CSS3
+- 🔄 JavaScript
+- 🔜 React
 
 ---
 
-## 🛠️ Tecnologias que estou estudando
+## 🛠️ Tecnologias que uso
 
 <div>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40" />
@@ -23,19 +29,21 @@ Meu objetivo é **aprender cada vez mais e crescer na carreira de Front-End**.
 
 ---
 
-## 💡 Projetos em destaque
+## 📂 Meus Projetos
 
-🔹 **dev-journey** – Projetos desenvolvidos durante meus estudos em Front-End (HTML e CSS)
-
-➡️ Confira meus repositórios acima 👆
-
----
-
-## 📫 Como entrar em contato
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Igor%20Marcondes-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/seuusuario)  
-✉️ igormarcondes961@gmail.com
+🔹 Portfólio Pessoal  
+🔹 Loja Virtual  
+🔹 Clone do YouTube (UI)  
+🔹 Site de Empregos  
 
 ---
 
-### ⭐ Vamos conectar e evoluir juntos!
+## 📫 Contato
+
+📧 SeuEmail@email.com  
+💼 LinkedIn: [linkedin.com/in/igormarcondes68a23a4](https://www.linkedin.com/in/igormarcondes68a23a4)  
+🌎 Portfólio Online: (coloque aqui)
+
+---
+
+⭐ Obrigado por visitar meu perfil!
