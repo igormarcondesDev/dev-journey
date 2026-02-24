@@ -17,10 +17,13 @@ Acredito que consistência é mais importante que velocidade. Estou evoluindo um
 
 ## 🛠️ Tecnologias que estou aprendendo
 
-- HTML5
-- CSS3
-- JavaScript (iniciando)
-- Git e GitHub
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="40px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="40px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40px"/>
+</p>
 
 ---
 
@@ -30,13 +33,8 @@ Meu objetivo é me tornar um desenvolvedor front-end profissional e trabalhar cr
 
 ---
 
-## 📈 Em constante evolução...
-
-Estou sempre praticando e melhorando meus projetos.  
-Cada repositório aqui representa um passo na minha evolução 🚀
-
----
-
 ## 📫 Contato
 
-🔗 LinkedIn: https://www.linkedin.com/in/igormarcondes68a23a4
+<a href="https://www.linkedin.com/in/igormarcondes68a23a4" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
