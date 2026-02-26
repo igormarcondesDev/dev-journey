@@ -48,20 +48,14 @@ body {
 }
 
 .menu-link::after {
-    content: '';
-    height: 2px;
-    width: 0;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    background: linear-gradient(90deg, var(--primaria), var(--secundaria));
-    transition: width 0.3s ease;
+     content: '';
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #38bdf8;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, var(--primaria), var(--secundaria));
     transition: width 0.3s ease;
-    box-shadow: 0 0 8px #38bdf8;
 }
 
 .menu-link:hover::after {
