@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dilocasch - Pagamento Digital</title>
+
+<style>
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg,#0f0f0f,#1a1a1a,#3b2e1e);
+    color:white;
+    overflow-x:hidden;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 80px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:gold;
+}
+
+nav a{
+    margin:0 15px;
+    text-decoration:none;
+    color:#ccc;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+.auth{
+    display:flex;
+    align-items:center;
+}
+
+.login{
+    margin-right:15px;
+    text-decoration:none;
+    color:#ccc;
+}
+
+.btn-outline{
+    background:transparent;
+    border:1px solid gold;
+    color:gold;
+    padding:10px 20px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn-outline:hover{
+    background:gold;
+    color:black;
+}
+
+.btn-primary{
+    background:gold;
+    border:none;
+    color:black;
+    padding:12px 25px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn-primary:hover{
+    transform:scale(1.05);
+}
+
+/* HERO */
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:80px;
+}
+
+.hero-left{
+    max-width:600px;
+}
+
+.hero-left h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero-left p{
+    color:#ccc;
+    margin-bottom:30px;
+}
+
+.buttons{
+    margin-bottom:50px;
+}
+
+.buttons button{
+    margin-right:15px;
+}
+
+.features{
+    display:flex;
+    gap:40px;
+}
+
+.feature span{
+    color:gold;
+    font-weight:bold;
+}
+
+/* CARDS */
+
+.hero-right{
+    position:relative;
+    width:500px;
+    height:300px;
+    perspective:1000px;
+}
+
+.card{
+    width:350px;
+    height:200px;
+    border-radius:15px;
+    position:absolute;
+    padding:25px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    box-shadow:0 20px 50px rgba(0,0,0,0.6);
+    transition:0.2s;
+    font-family:monospace;
+}
+
+.gold-card{
+    background:linear-gradient(45deg,#caa74e,#f5d77b);
+    top:60px;
+    left:20px;
+    transform:rotate(-10deg);
+}
+
+.black-card{
+    background:linear-gradient(45deg,#111,#333);
+    top:0;
+    left:120px;
+    transform:rotate(10deg);
+}
+
+.chip{
+    width:50px;
+    height:35px;
+    background:gold;
+    border-radius:5px;
+}
+
+.card-number{
+    font-size:20px;
+    letter-spacing:3px;
+}
+
+.card-info{
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+/* STATS */
+
+.stats{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:80px;
+}
+
+.circle-badge{
+    border:1px solid gold;
+    border-radius:50%;
+    padding:40px;
+    text-align:center;
+    color:gold;
+}
+
+.users h2{
+    font-size:50px;
+    color:gold;
+}
+
+.users p{
+    color:#ccc;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:900px){
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-right{
+        margin-top:50px;
+    }
+
+    .features{
+        flex-direction:column;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Dilocasch</div>
+
+    <nav>
+        <a href="#">Serviço</a>
+        <a href="#">Como Funciona</a>
+        <a href="#">Benefícios</a>
+        <a href="#">Planos</a>
+    </nav>
+
+    <div class="auth">
+        <a href="#" class="login">Login</a>
+        <button class="btn-outline">Criar Conta</button>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="hero-left">
+        <h1>Rápido e Simples<br>Pagamento Digital</h1>
+
+        <p>
+            Gere cartões virtuais seguros, controle seus pagamentos
+            e tenha total proteção nas suas transações online.
+        </p>
+
+        <div class="buttons">
+            <button class="btn-primary">Começar Agora</button>
+            <button class="btn-outline">Baixar App</button>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <span>01</span>
+                <h4>Transações Financeiras</h4>
+                <p>Gerencie tudo pelo app ou site.</p>
+            </div>
+
+            <div class="feature">
+                <span>02</span>
+                <h4>Sistema Fácil</h4>
+                <p>Cartões virtuais com saldo individual.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <div class="card gold-card">
+            <div class="chip"></div>
+            <div class="card-number"></div>
+            <div class="card-info">
+                <span class="card-name"></span>
+                <span class="card-date"></span>
+            </div>
+        </div>
+
+        <div class="card black-card">
+            <div class="chip"></div>
+            <div class="card-number"></div>
+            <div class="card-info">
+                <span class="card-name"></span>
+                <span class="card-date"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="circle-badge">
+        ✔ Solução bancária nº 1
+    </div>
+
+    <div class="users">
+        <h2>1.24M</h2>
+        <p>Usuários Ativos</p>
+    </div>
+</section>
+
+<script>
+
+// ===== GERADOR DE DADOS =====
+
+function gerarNumeroCartao(){
+    let numero="";
+    for(let i=0;i<16;i++){
+        numero+=Math.floor(Math.random()*10);
+        if((i+1)%4===0 && i!==15) numero+=" ";
+    }
+    return numero;
+}
+
+function gerarNome(){
+    const nomes=["Lucas Silva","Maria Costa","João Santos","Ana Oliveira","Carlos Souza"];
+    return nomes[Math.floor(Math.random()*nomes.length)];
+}
+
+function gerarValidade(){
+    let mes=String(Math.floor(Math.random()*12)+1).padStart(2,"0");
+    let ano=Math.floor(Math.random()*5)+26;
+    return mes+"/"+ano;
+}
+
+function preencherCartoes(){
+    const cards=document.querySelectorAll(".card");
+
+    cards.forEach(card=>{
+        card.querySelector(".card-number").innerText=gerarNumeroCartao();
+        card.querySelector(".card-name").innerText=gerarNome();
+        card.querySelector(".card-date").innerText=gerarValidade();
+    });
+}
+
+preencherCartoes();
+
+// ===== ANIMAÇÃO 3D =====
+
+const cards=document.querySelectorAll(".card");
+
+cards.forEach(card=>{
+    card.addEventListener("mousemove",(e)=>{
+        const rect=card.getBoundingClientRect();
+        const x=e.clientX-rect.left;
+        const y=e.clientY-rect.top;
+
+        const centerX=rect.width/2;
+        const centerY=rect.height/2;
+
+        const rotateX=(y-centerY)/15;
+        const rotateY=(centerX-x)/15;
+
+        card.style.transform=`rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    });
+
+    card.addEventListener("mouseleave",()=>{
+        card.style.transform="";
+    });
+});
+
+// ===== CONTADOR =====
+
+const userCount=document.querySelector(".users h2");
+let count=0;
+let target=1240000;
+
+let interval=setInterval(()=>{
+    count+=25000;
+    userCount.innerText=(count/1000000).toFixed(2)+"M";
+    if(count>=target) clearInterval(interval);
+},40);
+
+</script>
+
+</body>
+</html>
