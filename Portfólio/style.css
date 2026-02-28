@@ -15,7 +15,7 @@ html {
     --escuro: #0f172a;
     --maisEscuro: #0a0f1c;
     --claro: #e2e8f0;
-    --vidro: rgba(255,255,255,0.1);
+    --vidro: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -82,7 +82,7 @@ body {
     height: 300px;
     border-radius: 50%;
     border: 4px solid var(--vidro);
-    box-shadow: 0 0 20px rgba(79,70,229,0.4);
+    box-shadow: 0 0 20px rgba(79, 70, 229, 0.4);
     animation: flutuar 3s ease-in-out infinite;
 }
 
@@ -115,7 +115,7 @@ h1 {
     max-width: 800px;
     margin: auto;
     padding: 2rem;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--vidro);
     border-radius: 16px;
     backdrop-filter: blur(10px);
@@ -125,34 +125,52 @@ h1 {
 /* PROJETOS */
 .projetos-caixa {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 2rem;
     max-width: 1200px;
     margin: auto;
 }
 
 .projetos-card {
-    background: rgba(255,255,255,0.05);
+    position: relative;
+    /* necessário para a faixa */
+    height: 220px;
+    /* altura fixa do card */
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 16px;
     overflow: hidden;
     border: 1px solid var(--vidro);
     transition: 0.4s;
-    cursor: pointer;
+    cursor: default;
+    /* não é clicável ainda */
+    backdrop-filter: blur(10px);
 }
 
 .projetos-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(79,70,229,0.3);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(79, 70, 229, 0.3);
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.2),
+        0 0 25px rgba(124, 58, 237, 0.35);
 }
 
-.projetos-imagem {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-}
-
-.caixa-texto-projetos {
-    padding: 1.5rem;
+/* Faixa diagonal "EM BREVE" (igual à imagem de referência) */
+.projetos-card .em-breve {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140%;
+    transform: translate(-50%, -50%) rotate(-35deg);
+    background: var(--secundaria);
+    /* faixa marrom suave como na imagem */
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 0;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    pointer-events: none;
+    /* não atrapalha hover */
 }
 
 /* CONTATO */
@@ -160,7 +178,7 @@ h1 {
     max-width: 600px;
     margin: auto;
     padding: 2rem;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--vidro);
     border-radius: 16px;
     backdrop-filter: blur(5px);
@@ -175,14 +193,14 @@ h1 {
     padding: 1rem;
     border-radius: 8px;
     border: 1px solid var(--vidro);
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     color: var(--claro);
     outline: none;
 }
 
 .campo-form:focus {
     border-color: var(--secundaria);
-    box-shadow: 0 0 10px rgba(124,58,237,0.4);
+    box-shadow: 0 0 10px rgba(124, 58, 237, 0.4);
 }
 
 .botao-form {
@@ -199,7 +217,7 @@ h1 {
 
 .botao-form:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(124,58,237,0.5);
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.5);
 }
 
 /* FUNDO */
@@ -217,6 +235,13 @@ h1 {
 
 /* ANIMAÇÃO */
 @keyframes flutuar {
-    0%,100% { transform: translateY(0); }
-    50% { transform: translateY(-15px); }
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
 }
