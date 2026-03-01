@@ -47,26 +47,74 @@
 
     <!-- ================= PROJETOS ================= -->
     <section class="projetos" id="projetos">
-        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <h2 class="projetos-titulo">Projetos</h2>
 
         <div class="projetos-caixa">
-            <div class="projetos-card">
+            <!-- visíveis -->
+            <a href="./ProjetoAprenser/index.html" target="_blank" class="projetos-card projetos-card-link">
+                <img src="img/preview-aprenser.png" alt="Preview do Projeto Aprenser" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Projeto Aprenser</h3>
+                    <p>Projeto feito no curso, usando HTML e CSS.</p>
+                    <span class="projeto-botao">Ver projeto</span>
+                </div>
+            </a>
+
+            <a href="./ProjetoModaOra/final/index.html" target="_blank" class="projetos-card projetos-card-link">
+                <img src="img/preview-modaora.png" alt="Preview do Projeto ModaOra" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Projeto ModaOra</h3>
+                    <p>Projeto feito no curso, usando HTML e CSS.</p>
+                    <span class="projeto-botao">Ver projeto</span>
+                </div>
+            </a>
+
+            <a href="./ProjetoCSS-flexbox/index.html" target="_blank" class="projetos-card projetos-card-link">
+                <img src="img/preview-flexbox.png" alt="Preview do Projeto FlexBox" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Projeto FlexBox</h3>
+                    <p>Projeto feito no curso, usando HTML e CSS.</p>
+                    <span class="projeto-botao">Ver projeto</span>
+                </div>
+            </a>
+
+            <!-- extras (começam escondidos) -->
+            <a href="/Portfólio/Nossos valores/index.html" target="_blank" class="projetos-card projetos-card-link">
+                <img src="img/academia.jpg" alt="Projeto nossos vlore" class="projeto-img">
+                <div class="projeto-info">
+                    <h3>Projeto NossosValores</h3>
+                    <p>Projeto feito no curso, usando HTML e CSS.</p>
+                    <span class="projeto-botao">Ver projeto</span>
+                </div>
+            </a>
+
+            <div class="projetos-card hidden">
                 <span class="em-breve">EM BREVE</span>
             </div>
 
-            <div class="projetos-card">
+            <div class="projetos-card hidden">
                 <span class="em-breve">EM BREVE</span>
             </div>
 
-            <div class="projetos-card">
+            <div class="projetos-card hidden">
                 <span class="em-breve">EM BREVE</span>
             </div>
+
+            <div class="projetos-card hidden">
+                <span class="em-breve">EM BREVE</span>
+            </div>
+        </div>
+
+        <!-- BOTÃO VER MAIS / VER MENOS -->
+        <div class="ver-mais-wrapper">
+            <button id="btnVerMais" class="ver-mais-btn">Ver mais</button>
+            <p class="ver-mais-texto">Repositórios no GitHub</p>
         </div>
     </section>
 
     <!-- ================= HABILIDADES ================= -->
     <section class="skills" id="skills">
-        <h1 class="skills-titulo">Minhas Habilidades</h1>
+        <h1 class="skills-titulo">Habilidades</h1>
 
         <div class="skills-container">
             <div class="skill">
@@ -104,7 +152,7 @@
 
     <!-- ================= CONTATO ================= -->
     <section id="contato" class="contatos">
-        <h2 class="contatos-titulo">Entre em Contato</h2>
+        <h2 class="contatos-titulo">Contato</h2>
 
         <form class="formulario-contato" id="formulario">
             <div class="grupo-form">
@@ -138,6 +186,24 @@
 
             const url = `https://wa.me/${telefone}?text=${msgFormatada}`;
             window.open(url, '_blank');
+        });
+    </script>
+
+    <!-- ================= SCRIPT VER MENOS/MAIS ================= -->
+    <script>
+        const btnVerMais = document.getElementById("btnVerMais");
+        const cardsHidden = document.querySelectorAll(".projetos-card.hidden");
+
+        let aberto = false;
+
+        btnVerMais.addEventListener("click", () => {
+            aberto = !aberto;
+
+            cardsHidden.forEach(card => {
+                card.style.display = aberto ? "block" : "none";
+            });
+
+            btnVerMais.textContent = aberto ? "Ver menos" : "Ver mais";
         });
     </script>
 
