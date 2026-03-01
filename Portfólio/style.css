@@ -238,7 +238,7 @@ h1 {
 
 /* ================= BOTÃO VER MAIS ================= */
 .ver-mais-btn {
-    padding: 14px 36px;
+    padding: 14px 70px;
     border-radius: 999px;
     border: 1px solid color-mix(in srgb, var(--primaria), transparent 60%);
     background: linear-gradient(to bottom,
