@@ -12,12 +12,18 @@ body {
     margin: 0;
 }
 
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
 form {
-    width: 350px;
+    width: 100%;
+    max-width: 350px;
     background-color: #ecf0f1;
-    border-radius: 5px;
-    box-shadow: 3px 3px 10px #333;
-    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    padding: 20px;
 }
 
 fieldset {
@@ -26,54 +32,50 @@ fieldset {
     margin: 0;
 }
 
-input,
-label {
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-label {
-    margin-bottom: .25em;
-}
-
-input {
-    padding: .75em;
-    border-radius: 5px;
-    margin-bottom: 1.5em;
-    border: 1px solid #bbb;
-    font-size: 1em;
-}
-
 legend {
-    padding: 1em;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     color: #454e4f;
     font-size: 1.2em;
-    margin-bottom: .5em;
+    margin-bottom: 10px;
 }
 
-.btn {
-    width: fit-content;
-    margin-left: auto;
-    background-color: rgb(43, 43, 128);
-    color: white;
-    cursor: pointer;
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #bbb;
+    font-size: 1em;
 }
 
 .actions {
     display: flex;
-    gap: 1em;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-.btn2 {
-     background-color: rgb(43, 43, 128);
-     color: white;
-     cursor: pointer;
+.btn {
+    width: 100%;
+    background-color: rgb(43, 43, 128);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 .btn--apagar {
     background-color: rgb(128, 43, 56);
-    color: white;
-}
+}s
