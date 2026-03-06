@@ -30,3 +30,22 @@ btnVerMais.addEventListener("click", () => {
 
     btnVerMais.textContent = aberto ? "Ver menos" : "Ver mais";
 });
+
+// ================= SCROLL SUAVE =================
+const linksMenu = document.querySelectorAll(".menu-link");
+
+linksMenu.forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        const id = this.getAttribute("href");
+        const secao = document.querySelector(id);
+
+        const alturaMenu = document.querySelector(".navegacao").offsetHeight;
+
+        window.scrollTo({
+            top: secao.offsetTop - alturaMenu,
+            behavior: "smooth"
+        });
+    });
+});
