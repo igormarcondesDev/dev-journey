@@ -1,4 +1,4 @@
-git <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -150,15 +150,15 @@ git <!DOCTYPE html>
         }
 
         .hero-image img {
+            height: 110%;
             width: 100%;
-            height: 100%;
             object-fit: cover;
-            border-radius: 20px;
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.4));
         }
 
         .hero-content {
             display: grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1.4fr;
             gap: 50px;
             align-items: center;
         }
@@ -202,8 +202,17 @@ git <!DOCTYPE html>
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+
+        .hero-image img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.4));
         }
 
         /* --- 4. SECTIONS GERAIS --- */
@@ -572,7 +581,7 @@ git <!DOCTYPE html>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="img/imagem01.png" alt="Imagem tecnologia">
+                    <img src="img/preview-land.png" alt="Imagem mulher">
                 </div>
             </div>
         </div>
@@ -785,7 +794,7 @@ git <!DOCTYPE html>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>Nexus.</h3>
+                    <h3>NovaCore.</h3>
                     <p style="margin-top: 15px; color: #94a3b8;">Transformando o futuro dos negócios através da
                         tecnologia e inovação.</p>
                 </div>
@@ -814,7 +823,7 @@ git <!DOCTYPE html>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 Nexus Digital. Todos os direitos reservados.</p>
+                <p>&copy; 2026 NovaCore Digital. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
