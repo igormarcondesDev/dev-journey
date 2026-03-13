@@ -319,7 +319,7 @@ h1 {
 
 /* ================= REPOSITORIOS GITHUB ================= */
 .ver-mais-texto a {
-    color: #d1d5db;
+    color: var(--claro);
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
